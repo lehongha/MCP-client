@@ -1,0 +1,47 @@
+Software engineering with LLMs in 2025: reality check (at LDX3 by LeadDev)
+
+Đây là một bản tóm tắt theo định dạng slide về nội dung quan trọng của video YouTube:
+
+---
+
+**Tóm Tắt Hiện Trạng Kỹ Thuật Phần Mềm Với LLM Năm 2025: Đánh Giá Thực Tế**
+
+**1. Khoảng cách giữa Lời nói & Thực tế:**
+*   Các CEO đưa ra những dự đoán **cực kỳ lạc quan** (30%-90% code do AI viết).
+*   Tuy nhiên, thực tế trên thị trường cho thấy AI **chưa hoàn hảo** (ví dụ: công cụ Devin thêm lỗi tốn 700$, Copilot thất bại khi sửa lỗi codebase .NET của Microsoft).
+*   Dù vậy, sự **minh bạch** của Microsoft được đánh giá cao.
+
+**2. Tình hình sử dụng AI trong các nhóm công ty:**
+*   **AI Dev Tool Startups:**
+    *   **Sử dụng rất nhiều** công cụ của chính họ (Cloud Code của Antrophic: 90% code, Windswept: 95% code).
+    *   Cho thấy **mức độ chấp nhận và tăng trưởng nhanh chóng** (Cloud Code tăng 160% trong chưa đầy 1 tháng).
+    *   Antrophic đã giới thiệu **Giao thức Ngữ cảnh Mô hình (MCP)**, được các ông lớn như OpenAI, Google, Microsoft áp dụng.
+*   **Big Tech (Google, Amazon):**
+    *   **Đầu tư lớn và tích hợp sâu** AI vào các công cụ nội bộ (Google: Cider IDE, Critique, Code Search; Amazon: Amazon Q Developer Pro, Claude).
+    *   Google đang chuẩn bị cho **lượng code sản xuất tăng gấp 10 lần**.
+    *   Amazon đã tích hợp **hỗ trợ MCP** vào hầu hết các công cụ nội bộ, tự động hóa nhiều quy trình làm việc nhờ mô hình "API-first".
+*   **Các AI Startup khác:**
+    *   **Incident.io:** Đội ngũ **sử dụng AI rộng rãi** để tăng tốc công việc, chia sẻ mẹo (ví dụ: dùng MCP cho các yêu cầu rõ ràng, hỏi AI các tùy chọn giải pháp).
+    *   **Startup Công nghệ Sinh học (giấu tên):** Đã thử nghiệm nhưng **không công cụ nào thực sự hiệu quả**, viết code thủ công vẫn nhanh hơn sửa lỗi code do LLM tạo ra.
+*   **Kỹ sư phần mềm độc lập:**
+    *   **Rất hào hứng** và thấy công cụ AI đã đạt **điểm uốn cong/bùng phát** (inflection/tipping point).
+    *   Năng suất tăng vọt (Armen Ronacher: agent giúp tránh lỗi; Peter Seinberger: năng suất tăng 10-20 lần; Simon Willis: code agents thực sự hoạt động).
+    *   Ngôn ngữ và framework **ít quan trọng hơn** vì AI giúp dễ dàng chuyển đổi.
+    *   LLM được coi là một **bước chuyển dịch ngang (lateral move)** across the stack, không chỉ là một lớp mới.
+
+**3. Các Câu hỏi và Quan sát quan trọng:**
+*   **Tại sao CEO/người sáng lập lại hào hứng hơn kỹ sư?** (Trừ một số kỹ sư giàu kinh nghiệm).
+*   **Mức độ sử dụng AI trong các nhà phát triển:** Khảo sát cho thấy trung bình 5/10 nhà phát triển sử dụng hàng tuần, không phải hàng ngày – có thể có **thiên kiến chọn lọc** trong các câu chuyện được kể.
+*   **Mức độ tiết kiệm thời gian thực tế:** Ước tính 3-5 giờ/tuần, không phải 10-20 lần như một số người cảm nhận.
+*   **Tại sao AI hoạt động tốt hơn cho cá nhân so với đội nhóm/tổ chức?**.
+
+**4. Tác động dài hạn của LLM:**
+*   **Martin Fowler:** LLM sẽ mang lại **bước nhảy vọt về năng suất** tương tự như khi chuyển từ hợp ngữ sang ngôn ngữ cấp cao. Điểm khác biệt lớn là LLM **không xác định** (non-deterministic).
+*   **Kent Beck (52 năm kinh nghiệm lập trình):** Đang có **niềm vui lập trình hơn bao giờ hết**. So sánh tác động của LLM với sự xuất hiện của **vi xử lý, Internet và điện thoại thông minh**.
+*   LLM đã **thay đổi quan niệm về cái gì rẻ và cái gì đắt** trong lập trình.
+
+**5. Kết luận:**
+*   Mọi thứ **đang thay đổi**.
+*   Chúng ta cần **thử nghiệm nhiều hơn**, học hỏi từ các startup, và hiểu rõ cái gì hiệu quả và cái gì không.
+
+---
