@@ -45,3 +45,51 @@ Software engineering with LLMs in 2025: reality check (at LDX3 by LeadDev)
 *   Chúng ta cần **thử nghiệm nhiều hơn**, học hỏi từ các startup, và hiểu rõ cái gì hiệu quả và cái gì không.
 
 ---
+
+Here is the summarized content for a slideshow in English, drawing on the provided sources:
+
+---
+
+**Software Engineering with LLMs in 2025: Reality Check**
+
+**1. The Disconnect Between Hype & Reality:**
+*   **CEOs make extremely optimistic predictions** (e.g., Microsoft CEO: 30% of code by AI; Antrophic CEO: 90% of code in 3-6 months).
+*   However, real-world examples show AI is **not perfect**:
+    *   A startup used Devin, an autonomous AI agent, which added a bug costing **$700 extra**.
+    *   Microsoft's Copilot agent **failed spectacularly** to land a fix in a complex .NET codebase during a demo.
+*   **Microsoft's transparency** in showing these limitations is appreciated.
+
+**2. AI Usage Across Different Company Categories:**
+*   **AI Dev Tool Startups (e.g., Antrophic, Windswept, Cursor):**
+    *   Exhibit **heavy internal usage** of their own tools (Antrophic's Cloud Code: 90% of its own code written with Cloud Code; Windswept: 95% of code).
+    *   Show **rapid adoption and growth** (Cloud Code usage increased 160% in less than a month).
+    *   Antrophic introduced the **Model Context Protocol (MCP)**, now adopted by major players like OpenAI, Google, and Microsoft.
+*   **Big Tech (Google, Amazon):**
+    *   **Significant investment and deep integration** of LLMs into internal tools.
+    *   **Google:** AI is "everywhere," integrated into their Cider IDE (VS Code fork), Critique (code review), and Code Search. Google is preparing for a **10x increase in production code**.
+    *   **Amazon:** Most internal developers use Amazon Q Developer Pro and Claude. Amazon has integrated **MCP support** into most internal tools, automating significant parts of workflows due to their "API-first" approach since 2002.
+*   **Other AI Startups:**
+    *   **Incident.io:** Team **massively uses AI** to accelerate work, sharing tips internally (e.g., using MCP for well-defined tickets; prompting for solution options).
+    *   **Unnamed Biotech AI Startup:** Experimented with LLMs but **found manual coding faster** than reviewing and fixing LLM-generated code, especially for novel software.
+*   **Independent Software Engineers:**
+    *   **Highly enthusiastic**, feeling AI tools have reached an **inflection/tipping point**.
+    *   Report **significant productivity boosts** (e.g., Armen Ronacher: agents avoid model faults; Peter Seinberger: 10-20x productivity increase).
+    *   **Languages and frameworks matter less** as AI makes switching easy.
+    *   LLMs are viewed as a **lateral move across the stack**, fundamentally changing how we approach software development.
+
+**3. Key Questions & Observations:**
+*   **Why are founders/CEOs more excited than senior engineers?** (Unless those engineers are also potential founders).
+*   **Mainstream adoption:** Surveys suggest a median of **5 out of 10 developers use AI tools weekly**, not daily, indicating potential selection bias in the most positive anecdotes.
+*   **Actual time saved:** Estimated at **3-5 hours per week**, not the 10-20x perceived by some individuals.
+*   **Why does AI seem to work better for individuals than for teams/organizations?**.
+
+**4. Long-Term Impact of LLMs:**
+*   **Martin Fowler:** LLMs will bring a **productivity leap similar to the transition from assembly to high-level languages**. A key difference is that LLMs are **non-deterministic**.
+*   **Kent Beck (52 years of programming experience):** Expresses having **"more fun programming than ever before,"** comparing LLM impact to the advent of **microprocessors, the Internet, and smartphones**.
+*   LLMs have **shifted the fundamental perception of what is cheap and what is expensive** in programming.
+
+**5. Conclusion:**
+*   Things **are rapidly changing** in software engineering due to LLMs.
+*   We need to **experiment more**, learn from startups, and understand what truly works and what doesn't.
+
+---
